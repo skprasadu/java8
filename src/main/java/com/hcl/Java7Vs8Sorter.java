@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Comparator;
 
-public class Java8Tester {
+public class Java7Vs8Sorter {
 
 	public static void main(String args[]) {
 
@@ -23,7 +23,7 @@ public class Java8Tester {
 		names2.add("Naresh ");
 		names2.add("Kalpesh ");
 
-		Java8Tester tester = new Java8Tester();
+		Java7Vs8Sorter tester = new Java7Vs8Sorter();
 		System.out.println("Sort using Java 7 syntax: ");
 
 		tester.sortUsingJava7(names1);
