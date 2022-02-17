@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.function.BiPredicate;
 import java.util.stream.Collectors;
 
-public class JavaBiPredicate2 {
+public class JavaBiPredicateAsFunctionArgument {
 
     public static void main(String[] args) {
 

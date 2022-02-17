@@ -10,13 +10,13 @@ interface Sayable {
 	void sayMore(String msg);
 }
 
-public class DefaultMethods implements Sayable {
+public class DefaultAndAbstractMethods implements Sayable {
 	public void sayMore(String msg) { // implementing abstract method
 		System.out.println(msg);
 	}
 
 	public static void main(String[] args) {
-		DefaultMethods dm = new DefaultMethods();
+		DefaultAndAbstractMethods dm = new DefaultAndAbstractMethods();
 		dm.say(); // calling default method
 		dm.sayMore("Work is worship"); // calling abstract method
 

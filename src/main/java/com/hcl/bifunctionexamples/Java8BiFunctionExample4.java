@@ -5,11 +5,11 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.BiFunction;
 
-public class Java8BiFunction4 {
+public class Java8BiFunctionExample4 {
 
 	public static void main(String[] args) {
 
-		Java8BiFunction4 obj = new Java8BiFunction4();
+		Java8BiFunctionExample4 obj = new Java8BiFunctionExample4();
 
 		List<String> list = Arrays.asList("node", "c++", "java", "javascript");
 

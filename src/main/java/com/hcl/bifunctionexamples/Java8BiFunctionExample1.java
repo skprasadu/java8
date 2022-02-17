@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.BiFunction;
 
-public class Java8BiFunction1 {
+public class Java8BiFunctionExample1 {
 
 	public static void main(String[] args) {
 

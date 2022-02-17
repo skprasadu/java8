@@ -3,7 +3,7 @@ package com.hcl.bifunctionexamples;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
-public class Java8BiFunction2b {
+public class Java8BiFunctionExample3 {
 
 	public static void main(String[] args) {
 

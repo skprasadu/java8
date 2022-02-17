@@ -1,6 +1,6 @@
 package com.hcl.defaultexamples;
 
-public class Java8Tester {
+public class Java8ClassAndInterfaceExample {
 
 	public static void main(String args[]) {
 		Vehicle vehicle = new Car();
