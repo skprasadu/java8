@@ -1,6 +1,8 @@
 package com.hcl.bipredicate;
 
 import java.util.function.BiPredicate;
+//import java.util.function.;
+
 
 public class JavaBiPredicateAndExample {
 
@@ -8,10 +10,9 @@ public class JavaBiPredicateAndExample {
 		
 		BiPredicate<Integer, Integer> bp1 = (n1, n2) -> (n1 % n2 == 0);
 		BiPredicate<Integer, Integer> bp2 = (n1, n2) -> (n1 * n2 > 100);
-		
-		
+
 		// n1 should divisible by n2 and n1*n2 greater than 100
-		System.out.println(bp1.and(bp2).test(120, 6)); // flase
+		System.out.println("bp1.and.bp2 " + bp1.and(bp2).test(120, 6)); // true
 		
 		BiPredicate<String, String> bp3 = (s1, s2) -> s1.startsWith(s2);
 		BiPredicate<String, Integer> bp4 = (s1, s2) -> s1.length() > s2;

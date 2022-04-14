@@ -12,6 +12,12 @@ class Product{
         this.name = name;  
         this.price = price;  
     }  
+    
+    @Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return String.format("[%d, %s, %d]", id, name, price);
+	}
 }  
 public class LambdaExpressionExample11{  
     public static void main(String[] args) {  
@@ -27,6 +33,13 @@ public class LambdaExpressionExample11{
         Stream<Product> filtered_data = list.stream().filter(p -> p.price > 15000);  
      //   Stream<Product> filtered_data = list.stream().filter(p -> p.price > 25000);    
         // using lambda to iterate through collection  
+        
+        Float total = list.stream().map(x -> x.price).reduce(0.0f, (a, b) -> a + b);
+        
+        //check sum function and then see how you can use it.
+        
+        System.out.println("*****" + total);
+        
         filtered_data.forEach(  
                 product -> System.out.println(product.name+": "+product.price)  
         );  

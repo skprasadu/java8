@@ -23,7 +23,10 @@ public class TestJava9 {
         System.out.println(result); //[mkyong, jack, lawrence]
 
         //Java 8
-        List<String> collect = staff.stream().map(x -> x.getName()).collect(Collectors.toList());
+        List<String> collect = staff.stream()
+        		.map(x -> x.getName())
+        		.collect(Collectors.toList());
+        
         System.out.println(collect); //[mkyong, jack, lawrence]
 
     }

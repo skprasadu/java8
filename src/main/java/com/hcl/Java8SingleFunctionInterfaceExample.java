@@ -1,5 +1,6 @@
 package com.hcl;
 
+@FunctionalInterface
 interface Addable {
 	int add(int a, int b);
 }
